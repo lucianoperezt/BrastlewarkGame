@@ -1,6 +1,6 @@
 # BrastlewarkGame
 This app is developed for iphone devices.
-It shows a list of anhabitans with theirs info details.
+It is an app that shows a list of inhabitants with theirs info details.
 
 Developed in swift 3 with Xcode 9.2.
 
