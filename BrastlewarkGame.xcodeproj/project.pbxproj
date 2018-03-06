@@ -54,8 +54,6 @@
 		5FE5C11A2046448200797BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FEC51A8204CF38A0042B6F9 /* InhabitantHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantHelper.swift; sourceTree = "<group>"; };
 		78126A37D107793A5D97BAA3 /* Pods_BrastlewarkGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastlewarkGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B532D2C2A8929F05B130626C /* Pods-BrastlewarkGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkGame/Pods-BrastlewarkGame.debug.xcconfig"; sourceTree = "<group>"; };
-		BE4454B05ECF39CBE69EEDDD /* Pods-BrastlewarkGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkGame/Pods-BrastlewarkGame.release.xcconfig"; sourceTree = "<group>"; };
 		D063FB7BC867A066A6600248 /* Pods_brastlewark_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brastlewark_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EB6CBE78205475B2D1B4B3 /* Pods_brastlewark_game_brastlewark_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brastlewark_game_brastlewark_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -140,7 +138,6 @@
 				5FE5C1172046448200797BA7 /* BrastlewarkGameTests */,
 				5FE5C1012046448200797BA7 /* Products */,
 				9509F9F17B5343C7FACE05E5 /* Frameworks */,
-				DA540FCA0F3838039069BEA0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,15 +182,6 @@
 				78126A37D107793A5D97BAA3 /* Pods_BrastlewarkGame.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA540FCA0F3838039069BEA0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B532D2C2A8929F05B130626C /* Pods-BrastlewarkGame.debug.xcconfig */,
-				BE4454B05ECF39CBE69EEDDD /* Pods-BrastlewarkGame.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,7 +506,6 @@
 		};
 		5FE5C11E2046448200797BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B532D2C2A8929F05B130626C /* Pods-BrastlewarkGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,7 +521,6 @@
 		};
 		5FE5C11F2046448200797BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE4454B05ECF39CBE69EEDDD /* Pods-BrastlewarkGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
