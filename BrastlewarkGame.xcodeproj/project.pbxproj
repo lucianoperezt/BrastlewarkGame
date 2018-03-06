@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09F0B0FB7249C2F2619EAE86 /* Pods_BrastlewarkGame_BrastlewarkGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3264A0DA2483F449B5235F3 /* Pods_BrastlewarkGame_BrastlewarkGameTests.framework */; };
 		5F002E6A204A24C30000EDB5 /* InhabitanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F002E68204A24C30000EDB5 /* InhabitanTableViewCell.swift */; };
 		5F002E6B204A24C30000EDB5 /* InhabitanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F002E69204A24C30000EDB5 /* InhabitanTableViewCell.xib */; };
 		5F002E6E204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F002E6D204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BCD5DC8535280B8095D6BB1 /* Pods-BrastlewarkGame-BrastlewarkGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkGame-BrastlewarkGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkGame-BrastlewarkGameTests/Pods-BrastlewarkGame-BrastlewarkGameTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F002E68204A24C30000EDB5 /* InhabitanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitanTableViewCell.swift; sourceTree = "<group>"; };
 		5F002E69204A24C30000EDB5 /* InhabitanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InhabitanTableViewCell.xib; sourceTree = "<group>"; };
 		5F002E6D204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImageUsingCache.swift"; sourceTree = "<group>"; };
@@ -54,8 +56,12 @@
 		5FE5C11A2046448200797BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FEC51A8204CF38A0042B6F9 /* InhabitantHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantHelper.swift; sourceTree = "<group>"; };
 		78126A37D107793A5D97BAA3 /* Pods_BrastlewarkGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastlewarkGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3264A0DA2483F449B5235F3 /* Pods_BrastlewarkGame_BrastlewarkGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastlewarkGame_BrastlewarkGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74B5375372A1CEC98585A77 /* Pods-BrastlewarkGame-BrastlewarkGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkGame-BrastlewarkGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkGame-BrastlewarkGameTests/Pods-BrastlewarkGame-BrastlewarkGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D063FB7BC867A066A6600248 /* Pods_brastlewark_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brastlewark_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EB6CBE78205475B2D1B4B3 /* Pods_brastlewark_game_brastlewark_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brastlewark_game_brastlewark_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B2DC29FBC98893D071F872 /* Pods-BrastlewarkGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkGame/Pods-BrastlewarkGame.release.xcconfig"; sourceTree = "<group>"; };
+		F9EFB0BD47742535DE88D968 /* Pods-BrastlewarkGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkGame/Pods-BrastlewarkGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F0B0FB7249C2F2619EAE86 /* Pods_BrastlewarkGame_BrastlewarkGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 				5FE5C1172046448200797BA7 /* BrastlewarkGameTests */,
 				5FE5C1012046448200797BA7 /* Products */,
 				9509F9F17B5343C7FACE05E5 /* Frameworks */,
+				AC668DF9C205B1165E845023 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,8 +188,20 @@
 				D063FB7BC867A066A6600248 /* Pods_brastlewark_game.framework */,
 				F1EB6CBE78205475B2D1B4B3 /* Pods_brastlewark_game_brastlewark_gameTests.framework */,
 				78126A37D107793A5D97BAA3 /* Pods_BrastlewarkGame.framework */,
+				B3264A0DA2483F449B5235F3 /* Pods_BrastlewarkGame_BrastlewarkGameTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC668DF9C205B1165E845023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9EFB0BD47742535DE88D968 /* Pods-BrastlewarkGame.debug.xcconfig */,
+				F9B2DC29FBC98893D071F872 /* Pods-BrastlewarkGame.release.xcconfig */,
+				C74B5375372A1CEC98585A77 /* Pods-BrastlewarkGame-BrastlewarkGameTests.debug.xcconfig */,
+				3BCD5DC8535280B8095D6BB1 /* Pods-BrastlewarkGame-BrastlewarkGameTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FE5C1202046448200797BA7 /* Build configuration list for PBXNativeTarget "BrastlewarkGameTests" */;
 			buildPhases = (
+				7EDFC1F67F1D49C2337DD372 /* [CP] Check Pods Manifest.lock */,
 				5FE5C1102046448200797BA7 /* Sources */,
 				5FE5C1112046448200797BA7 /* Frameworks */,
 				5FE5C1122046448200797BA7 /* Resources */,
+				9C1E6D9183024385E07EFF4E /* [CP] Embed Pods Frameworks */,
+				8ECC88A35CE6D8CECBE8A867 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +323,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkGame/Pods-BrastlewarkGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDFC1F67F1D49C2337DD372 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrastlewarkGame-BrastlewarkGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECC88A35CE6D8CECBE8A867 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkGame-BrastlewarkGameTests/Pods-BrastlewarkGame-BrastlewarkGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1E6D9183024385E07EFF4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkGame-BrastlewarkGameTests/Pods-BrastlewarkGame-BrastlewarkGameTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkGame-BrastlewarkGameTests/Pods-BrastlewarkGame-BrastlewarkGameTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B538415D347ABCA726245A33 /* [CP] Embed Pods Frameworks */ = {
@@ -506,7 +582,9 @@
 		};
 		5FE5C11E2046448200797BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EFB0BD47742535DE88D968 /* Pods-BrastlewarkGame.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EH5494EZG6;
@@ -522,7 +600,9 @@
 		};
 		5FE5C11F2046448200797BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B2DC29FBC98893D071F872 /* Pods-BrastlewarkGame.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EH5494EZG6;
@@ -538,8 +618,9 @@
 		};
 		5FE5C1212046448300797BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74B5375372A1CEC98585A77 /* Pods-BrastlewarkGame-BrastlewarkGameTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EH5494EZG6;
@@ -555,8 +636,9 @@
 		};
 		5FE5C1222046448300797BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCD5DC8535280B8095D6BB1 /* Pods-BrastlewarkGame-BrastlewarkGameTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EH5494EZG6;
