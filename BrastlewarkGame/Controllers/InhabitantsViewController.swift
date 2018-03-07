@@ -8,6 +8,9 @@
 
 import UIKit
 
+/*
+ * Class that handles a list of Inhabitant.
+ */
 class InhabitantsViewController: UIViewController,  UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate  {
     
     var habitants = [Inhabitant]()

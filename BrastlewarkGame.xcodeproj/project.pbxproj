@@ -12,6 +12,7 @@
 		5F002E6B204A24C30000EDB5 /* InhabitanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F002E69204A24C30000EDB5 /* InhabitanTableViewCell.xib */; };
 		5F002E6E204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F002E6D204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift */; };
 		5F3AA3F2204F604500ED37B2 /* InhabitantViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AA3F1204F604500ED37B2 /* InhabitantViewControllerTest.swift */; };
+		5F8A9B6B204F9270007DF8BC /* ImagePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A9B6A204F9270007DF8BC /* ImagePopUpViewController.swift */; };
 		5FD3928A20472115000E8450 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3928920472115000E8450 /* DataService.swift */; };
 		5FD3928D204733AF000E8450 /* InhabitantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3928C204733AF000E8450 /* InhabitantManager.swift */; };
 		5FD3928F20478F41000E8450 /* InhabitantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3928E20478F41000E8450 /* InhabitantDetailViewController.swift */; };
@@ -21,7 +22,7 @@
 		5FE5C1092046448200797BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C1072046448200797BA7 /* Main.storyboard */; };
 		5FE5C10B2046448200797BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C10A2046448200797BA7 /* Assets.xcassets */; };
 		5FE5C10E2046448200797BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C10C2046448200797BA7 /* LaunchScreen.storyboard */; };
-		5FE5C1192046448200797BA7 /* InhabitantManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5C1182046448200797BA7 /* InhabitantManagerTests.swift */; };
+		5FE5C1192046448200797BA7 /* InhabitantManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5C1182046448200797BA7 /* InhabitantManagerTest.swift */; };
 		5FEC51A9204CF38A0042B6F9 /* InhabitantHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC51A8204CF38A0042B6F9 /* InhabitantHelper.swift */; };
 		5FF49837204F4B33003BF7FA /* InhabitantDetailViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF49836204F4B33003BF7FA /* InhabitantDetailViewControllerTest.swift */; };
 		BBDD367646812CFD96FC5F4A /* Pods_BrastlewarkGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78126A37D107793A5D97BAA3 /* Pods_BrastlewarkGame.framework */; };
@@ -43,6 +44,7 @@
 		5F002E69204A24C30000EDB5 /* InhabitanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InhabitanTableViewCell.xib; sourceTree = "<group>"; };
 		5F002E6D204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImageUsingCache.swift"; sourceTree = "<group>"; };
 		5F3AA3F1204F604500ED37B2 /* InhabitantViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantViewControllerTest.swift; sourceTree = "<group>"; };
+		5F8A9B6A204F9270007DF8BC /* ImagePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePopUpViewController.swift; sourceTree = "<group>"; };
 		5FD3928920472115000E8450 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5FD3928C204733AF000E8450 /* InhabitantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantManager.swift; sourceTree = "<group>"; };
 		5FD3928E20478F41000E8450 /* InhabitantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantDetailViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +57,7 @@
 		5FE5C10D2046448200797BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FE5C10F2046448200797BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FE5C1142046448200797BA7 /* BrastlewarkGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastlewarkGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FE5C1182046448200797BA7 /* InhabitantManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantManagerTests.swift; sourceTree = "<group>"; };
+		5FE5C1182046448200797BA7 /* InhabitantManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantManagerTest.swift; sourceTree = "<group>"; };
 		5FE5C11A2046448200797BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FEC51A8204CF38A0042B6F9 /* InhabitantHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantHelper.swift; sourceTree = "<group>"; };
 		5FF49836204F4B33003BF7FA /* InhabitantDetailViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhabitantDetailViewControllerTest.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				5FE5C1052046448200797BA7 /* InhabitantsViewController.swift */,
 				5FD3928E20478F41000E8450 /* InhabitantDetailViewController.swift */,
+				5F8A9B6A204F9270007DF8BC /* ImagePopUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,7 +182,7 @@
 		5FE5C1172046448200797BA7 /* BrastlewarkGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				5FE5C1182046448200797BA7 /* InhabitantManagerTests.swift */,
+				5FE5C1182046448200797BA7 /* InhabitantManagerTest.swift */,
 				5FF49836204F4B33003BF7FA /* InhabitantDetailViewControllerTest.swift */,
 				5F3AA3F1204F604500ED37B2 /* InhabitantViewControllerTest.swift */,
 				5FEC51A8204CF38A0042B6F9 /* InhabitantHelper.swift */,
@@ -433,6 +436,7 @@
 				5FE5C1062046448200797BA7 /* InhabitantsViewController.swift in Sources */,
 				5FE5C1042046448200797BA7 /* AppDelegate.swift in Sources */,
 				5FD3928A20472115000E8450 /* DataService.swift in Sources */,
+				5F8A9B6B204F9270007DF8BC /* ImagePopUpViewController.swift in Sources */,
 				5F002E6E204A5D5D0000EDB5 /* UIImageView+LoadImageUsingCache.swift in Sources */,
 				5FD3928D204733AF000E8450 /* InhabitantManager.swift in Sources */,
 				5F002E6A204A24C30000EDB5 /* InhabitanTableViewCell.swift in Sources */,
@@ -445,7 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF49837204F4B33003BF7FA /* InhabitantDetailViewControllerTest.swift in Sources */,
-				5FE5C1192046448200797BA7 /* InhabitantManagerTests.swift in Sources */,
+				5FE5C1192046448200797BA7 /* InhabitantManagerTest.swift in Sources */,
 				5F3AA3F2204F604500ED37B2 /* InhabitantViewControllerTest.swift in Sources */,
 				5FEC51A9204CF38A0042B6F9 /* InhabitantHelper.swift in Sources */,
 			);

@@ -8,6 +8,9 @@
 
 import UIKit
 
+/*
+ * Class that represent a inhabitant detail
+ */
 class InhabitantDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var image: UIImageView!
@@ -39,7 +42,7 @@ class InhabitantDetailViewController: UIViewController, UITableViewDelegate, UIT
     
     // Mark: setData
     private func setData () {
-        if(inhabilant != nil){
+        if(inhabilant != nil) {
             self.name.text = inhabilant.name
             self.age.text = String(inhabilant.age)
             self.height.text = String(inhabilant.height)
@@ -82,5 +85,13 @@ class InhabitantDetailViewController: UIViewController, UITableViewDelegate, UIT
         return 25
     }
     
+    
+    // Mark: Segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "imagePopupIdentifier") {
+            let viewController = segue.destination as! ImagePopUpViewController
+            viewController.imageURL = inhabilant.thumbnailUrl
+        }
+    }
 
 }

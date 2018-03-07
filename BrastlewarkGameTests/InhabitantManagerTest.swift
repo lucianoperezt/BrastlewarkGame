@@ -14,9 +14,14 @@ import XCTest
 class InhabitantManagerTests: XCTestCase {
     private let inhabitantManager  = InhabitantManager()
     private var inhabitanJSON : JSON = InhabitantHelper.getAnInhabitanJson()
+    private var inhabitant: Inhabitant!
     
+    override func setUp() {
+        super.setUp()
+        inhabitant = inhabitantManager.parseInhabitant(json: inhabitanJSON)
+    }
+
     func testGetAnInhabitanJson() {
-        let inhabitant: Inhabitant = inhabitantManager.parseInhabitant(json: inhabitanJSON)
         XCTAssertEqual(inhabitant.name, "Tobus Quickwhistle")
         XCTAssertEqual(inhabitant.age, 306)
         XCTAssertEqual(inhabitant.hairColor, "Pink")
