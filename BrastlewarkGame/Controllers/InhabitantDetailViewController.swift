@@ -29,7 +29,7 @@ class InhabitantDetailViewController: UIViewController, UITableViewDelegate, UIT
         setData()
     }
     
-    // Mark: tableview delegate datasource
+    // Mark: set tableview delegate and datasource
     private func setUpTableViews () {
         self.friendsTableView.delegate = self
         self.friendsTableView.dataSource = self
@@ -39,15 +39,17 @@ class InhabitantDetailViewController: UIViewController, UITableViewDelegate, UIT
     
     // Mark: setData
     private func setData () {
-        self.name.text = inhabilant.name
-        self.age.text = String(inhabilant.age)
-        self.height.text = String(inhabilant.height)
-        self.weight.text = String(inhabilant.weight)
-        self.hairColor.text = inhabilant.hairColor
-        self.friendsTitle.text = "\(inhabilant.friends.count) friends"
-        self.professionTitle.text =  "\(inhabilant.professions.count) professions"
-        self.image.loadImageUsingCache(withUrl:inhabilant.thumbnailUrl)
-        self.image.setRounded()
+        if(inhabilant != nil){
+            self.name.text = inhabilant.name
+            self.age.text = String(inhabilant.age)
+            self.height.text = String(inhabilant.height)
+            self.weight.text = String(inhabilant.weight)
+            self.hairColor.text = inhabilant.hairColor
+            self.friendsTitle.text = "\(inhabilant.friends.count) friends"
+            self.professionTitle.text =  "\(inhabilant.professions.count) professions"
+            self.image.loadImageUsingCache(withUrl:inhabilant.thumbnailUrl)
+            self.image.setRounded()
+        }
     }
 
     // Mark: TableView
@@ -70,6 +72,8 @@ class InhabitantDetailViewController: UIViewController, UITableViewDelegate, UIT
             let name = inhabilant.professions[indexPath.row]
             cell.textLabel!.text = name
         }
+        cell.textLabel!.textColor = UIColor.lightGray
+        cell.textLabel!.textAlignment = .center
         return cell
     }
 

@@ -12,8 +12,8 @@ import XCTest
 @testable import SwiftyJSON
 
 class InhabitantManagerTests: XCTestCase {
-    let inhabitantManager  = InhabitantManager()
-    var inhabitanJSON : JSON = InhabitantHelper.getAnInhabitanJson()
+    private let inhabitantManager  = InhabitantManager()
+    private var inhabitanJSON : JSON = InhabitantHelper.getAnInhabitanJson()
     
     func testGetAnInhabitanJson() {
         let inhabitant: Inhabitant = inhabitantManager.parseInhabitant(json: inhabitanJSON)

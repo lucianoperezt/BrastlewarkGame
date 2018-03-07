@@ -17,7 +17,7 @@ class InhabitanTableViewCell: UITableViewCell {
     @IBOutlet weak var age: UILabel!
     @IBOutlet weak var friends: UILabel!
     @IBOutlet weak var professions: UILabel!
-    @IBOutlet weak var thun: UIImageView!
+    @IBOutlet weak var iconImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

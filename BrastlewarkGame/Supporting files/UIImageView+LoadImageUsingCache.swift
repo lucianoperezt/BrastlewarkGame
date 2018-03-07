@@ -50,10 +50,9 @@ extension UIImageView {
      *  Setting an image as rounded
      */
     public func setRounded() {
-        self.layer.borderWidth = 1
+        self.layer.borderWidth = 0.5
         self.layer.masksToBounds = false
         self.layer.cornerRadius = self.frame.height/2
-        self.layer.borderColor = UIColor.gray.cgColor
         self.clipsToBounds = true
     }
 }

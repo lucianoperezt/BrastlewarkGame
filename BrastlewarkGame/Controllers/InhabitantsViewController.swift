@@ -93,8 +93,10 @@ class InhabitantsViewController: UIViewController,  UITableViewDelegate, UITable
         cell.age.text = "Age: \(inha.age)"
         cell.friends.text = "Friends: \(inha.friends.count)"
         cell.professions.text = "Professions: \(inha.professions.count)"
-        cell.thun.loadImageUsingCache(withUrl: inha.thumbnailUrl)
+        cell.iconImage.loadImageUsingCache(withUrl: inha.thumbnailUrl)
+        cell.iconImage.setRounded()
         cell.selectionStyle = .none
+
         return cell
     }
 
@@ -103,7 +105,7 @@ class InhabitantsViewController: UIViewController,  UITableViewDelegate, UITable
         self.selectInhabitant = inhabitant
         performSegue(withIdentifier: "InhabitanSegueIdentifer", sender: self)
     }
-    
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
     }
@@ -131,11 +133,11 @@ class InhabitantsViewController: UIViewController,  UITableViewDelegate, UITable
         }
        tableView.reloadData()
     }
-    
+
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.endEditing(true)
     }
-    
+
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.endEditing(true)
     }
