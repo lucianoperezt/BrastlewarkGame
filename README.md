@@ -4,7 +4,7 @@ It is an app that shows a list of inhabitants with theirs info details.
 
 ## Requirements
  ` Xcode 9.2+ `</br>
- ` Awift 4.0+ `</br>
+ ` Swift 4.0+ `</br>
  ` iOS 11+ `</br>
 
 
