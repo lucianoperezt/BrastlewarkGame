@@ -1,6 +1,9 @@
 # BrastlewarkGame
 This app is developed for iphone devices.</br>
-It is an app that shows a list of inhabitants with theirs info details.
+It is an app that shows a list of inhabitants with theirs info details.</br>
+
+JSON:
+<a href="https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json">link to get the data</a>
 
 ## Requirements
  ` Xcode 9.2+ `</br>
